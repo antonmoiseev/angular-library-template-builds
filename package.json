@@ -1,0 +1,14 @@
+{
+  "name": "@my-company/my-library",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Proprietary",
+  "main": "./bundles/my-library.umd.js",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^2.2.0",
+    "@angular/common": "^2.2.0",
+    "@angular/http": "^2.2.0"
+  }
+}
